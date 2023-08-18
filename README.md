@@ -1,27 +1,37 @@
 # TrimFusion
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
+TrimFusion is a user-friendly web tool designed to enhance your video viewing experience. With the power to view YouTube videos directly within the interface, users can effortlessly cut and trim videos to their preferred lengths. Download the cropped videos in various formats and enjoy a sleek and intuitive design.
 
-## Development server
+<!-- ![TrimFusion Screenshot](screenshot.png)   Include a screenshot of your app here -->
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
+- **View YouTube Videos**: Embed and watch YouTube videos directly.
+- **Cut and Trim**: Customize video lengths with easy-to-use cutting tools.
+- **Download in Various Formats**: Save your customized videos in your preferred format.
+- **Open Source**: Contribute and help improve TrimFusion.
 
-## Code scaffolding
+## Installation
+1. Clone the repository: `git clone https://github.com/yourusername/TrimFusion.git`
+2. Navigate to the project directory: `cd TrimFusion`
+3. Install dependencies: `npm install`
+4. Start the development server: `ng serve`
+5. Open in your browser: `http://localhost:4200`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Usage
+- Paste a YouTube link to view the video.
+- Use the sliders or input fields to select the start and end times for cutting.
+- Choose the desired download format and click the download button.
 
-## Build
+## Contributing
+We welcome contributions from the community. 
+<!-- Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute. -->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## License
+TrimFusion is licensed under the MIT License. See [LICENSE](./LICENSE) for more details.
 
-## Running unit tests
+## Contact
+For any questions or feedback, please reach out to [gmail](damikaanupama@gmail.com).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Made with ❤️ by [Damika Anupama](https://www.linkedin.com/in/damika-anupama-62a22a19a/)
