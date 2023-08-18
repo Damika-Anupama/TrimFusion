@@ -1,14 +1,1 @@
-<div class="container">
-  <div class="input-container">
-    <input type="text" placeholder="Enter YouTube URL" [(ngModel)]="youtubeUrl" />
-    <button (click)="loadVideo()">Load Video</button>
-  </div>
-  <div class="video-container">
-    <iframe [src]="sanitizedUrl" title="YouTube Video Player" allowfullscreen></iframe>
-  </div>
-  <div class="timeline-container">
-    <input type="range" min="0" max="100" step="1" [(ngModel)]="startThumb" class="thumb" />
-    <input type="range" min="0" max="100" step="1" [(ngModel)]="endThumb" class="thumb" />
-  </div>
-  <button (click)="cropVideo()" class="crop-button">CROP</button>
-</div>
+<router-outlet></router-outlet>
