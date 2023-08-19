@@ -17,6 +17,13 @@ TrimFusion is a user-friendly web tool designed to enhance your video viewing ex
 4. Start the development server: `ng serve`
 5. Open in your browser: `http://localhost:4200`
 
+## Design
+Rendering Page
+![Rendering Page](./src/assets/rendering_page.png)
+
+Download Page
+![Download Page](./src/assets/download_page.png)
+
 ## Usage
 - Paste a YouTube link to view the video.
 - Use the sliders or input fields to select the start and end times for cutting.
