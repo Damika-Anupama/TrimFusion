@@ -49,4 +49,15 @@
   iframe {
     border: none; // This will remove the border from the iframe
   }
-  
+  .default-video-thumbnail{
+    width: 100%;
+  }
+
+  mat-slider {
+    width: 430px;
+  }
+
+  .main-slider{
+    padding-left: 25px;
+    padding-right: 25px;
+  }

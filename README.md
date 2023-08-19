@@ -11,7 +11,7 @@ TrimFusion is a user-friendly web tool designed to enhance your video viewing ex
 - **Open Source**: Contribute and help improve TrimFusion.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/yourusername/TrimFusion.git`
+1. Clone the repository: `git clone https://github.com/Damika-Anupama/TrimFusion.git`
 2. Navigate to the project directory: `cd TrimFusion`
 3. Install dependencies: `npm install`
 4. Start the development server: `ng serve`
