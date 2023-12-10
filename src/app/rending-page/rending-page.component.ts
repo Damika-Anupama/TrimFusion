@@ -19,7 +19,7 @@ export class RendingPageComponent {
     private router: Router) {}
 
   extractVideoId(url: string): string {
-    const parts = url.split('/');
+    const parts = url.split('=');
     return parts[parts.length - 1];
   }
 
@@ -28,7 +28,7 @@ export class RendingPageComponent {
     
     // Construct the embed URL using the video ID
     this.embedUrl = 'https://www.youtube.com/embed/' + videoId;
-
+    console.log(this.embedUrl)
     // Sanitize the URL to embed the YouTube video
     this.sanitizedUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.embedUrl);
   }
@@ -42,6 +42,17 @@ export class RendingPageComponent {
   }
 
   cropVideo() {
-    this.router.navigate(['/download']);
+    // this.router.navigate(['/download']);
+    this.downloadVideo();
+  }
+  downloadVideo() {
+    // Create a hidden link element
+    const link = document.createElement('a');
+    link.href = this.youtubeUrl; // You can change this to the original video URL if needed
+    link.target = '_blank';
+    link.download = 'trimmed_video.mp4'; // You can set the desired filename here
+
+    // Trigger a click on the link to start the download
+    link.click();
   }
 }
